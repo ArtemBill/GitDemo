@@ -13,3 +13,8 @@
 2022-06-30 07:59:05,223 :INFO :test_e2e :Samsung Note 8
 2022-06-30 07:59:05,233 :INFO :test_e2e :Nokia Edge
 2022-06-30 07:59:05,245 :INFO :test_e2e :Blackberry
+2022-07-22 23:26:38,283 :INFO :test_e2e :getting all the card titles
+2022-07-22 23:26:38,305 :INFO :test_e2e :iphone X
+2022-07-22 23:26:38,316 :INFO :test_e2e :Samsung Note 8
+2022-07-22 23:26:38,327 :INFO :test_e2e :Nokia Edge
+2022-07-22 23:26:38,337 :INFO :test_e2e :Blackberry
