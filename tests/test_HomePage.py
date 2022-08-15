@@ -21,17 +21,17 @@ class TestHomePage(BaseClass):
 
         assert "success" in message
 
-    def getTestData(self, test_case_name):
-        book = openpyxl.load_workbook("/Users/soprano/Desktop/PythonSelFramework/TestData/PythonDemo.xlsx")
-        sheet = book.active
-        Dict = {}
-        for i in range(1, sheet.max_row):
-            for j in range(1, sheet.max_column + 1):
-                if sheet.cell(row=i, column=j).value == test_case_name:
-                    Dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
-
-
-        print(Dict)
+    # def getTestData(self, test_case_name):
+    #     book = openpyxl.load_workbook("/Users/soprano/Desktop/PythonSelFramework/TestData/PythonDemo.xlsx")
+    #     sheet = book.active
+    #     Dict = {}
+    #     for i in range(1, sheet.max_row):
+    #         for j in range(1, sheet.max_column + 1):
+    #             if sheet.cell(row=i, column=j).value == test_case_name:
+    #                 Dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
+    #
+    #
+    #     print(Dict)
 
     @pytest.fixture(params=HomePageData.test_HomePage_data)
     def getData(self, request):
