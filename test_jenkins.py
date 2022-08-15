@@ -17,7 +17,7 @@ from selenium.webdriver.common.by import By
 
 # driver = webdriver.Chrome(options=options)
 
-s = Service("/usr/bin/chromedriver")
+s = Service("venv/lib/python3.8/site-packages/selenium/webdriver/remote/webdriver.py")
 driver = webdriver.Chrome(service=s)
 driver.get('https://rahulshettyacademy.com/angularpractice/')
 
