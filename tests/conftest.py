@@ -17,7 +17,7 @@ from selenium.webdriver.support import expected_conditions
 def setup(request):
     # browser_name = request.config.getoption("browser_name")
     # if browser_name == "chrome":
-    s = Service("/Users/soprano/Desktop/First_Module/pythonSelenium/chromedriver ")
+    s = Service("/usr/bin/chromedriver ")
     driver = webdriver.Chrome(service=s)
 
     #
