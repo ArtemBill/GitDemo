@@ -9,7 +9,6 @@ from utilities.BaseClass import BaseClass
 class TestHomePage(BaseClass):
 
     def test_formSubmission(self, getData):
-
         homepage = HomePage(self.driver)
         homepage.getName().send_keys(getData["firstname"])
         homepage.getEmail().send_keys(getData["lastname"])
